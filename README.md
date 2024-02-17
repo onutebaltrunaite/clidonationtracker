@@ -9,17 +9,17 @@ Users are equipped with full CRUD (Create, Read, Update, Delete) capabilities fo
 ## Requirements
 
 The application has the following functionality:
-• View charities
-• Add charity
-• Edit charity
-• Delete charity
-• Add donation
-• Import charities in CSV format.
+- View charities
+- Add charity
+- Edit charity
+- Delete charity
+- Add donation
+- Import charities in CSV format
 
 ## Architecture
 
 The application follows a folder structure:
-
+```bash
 cliDonationTracker
 │   README.md
 │   run.php
@@ -46,7 +46,7 @@ cliDonationTracker
     │
     └───validations
             Validations.php
-
+```
 
 ## Prerequisites
 
@@ -66,3 +66,6 @@ you have to locate the php.ini file of your local php installation and uncomment
 4. Open a terminal and use the cd command to navigate into the root folder cloned repository (clidonationtracker)
 6. Run the application using the command:
 `php run.php`
+In case you want to import data from a csv file, here you can pass the path to your csv file as an argument to the run command above. It will look like this:
+`php run.php path/to/your/file.csv`
+7. Use the CLI menu to choose the desired functionality.
