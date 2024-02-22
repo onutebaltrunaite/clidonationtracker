@@ -62,7 +62,7 @@ Before you begin, ensure you have met the following requirements:
 you have to locate the php.ini file of your local php installation and uncomment or write the `extension=mysqli` line under the Dynamic Extensions section.
 2. Clone the project onto your local machine using the command:
 `git clone `
-3. Open the cloned repository root folder (clidonationtracker) with your preferred IDE and locate the src/data/DB.php class. Set the `$userName` and `$password` fields to corresponds to the credentials of a user with sufficient privileges to create a database schema on your local MariaDB.
+3. Open the cloned repository root folder (clidonationtracker) with your preferred IDE and locate the src/data/DB.php class. Set the `$userName` and `$password` fields to values that correspond to the credentials of a user with sufficient privileges to create a database schema on your local MariaDB.
 4. Open a terminal and use the cd command to navigate into the root folder cloned repository (clidonationtracker)
 6. Run the application using the command:
 `php run.php`
